@@ -12,7 +12,7 @@ include_slot('header', get_partial('global/header'));
             
             <div id="branding">
                 <img src="<?php echo theme_path('images/logo.png')?>" width="283" height="56" alt="OrangeHRM"/>
-                <a href="http://www.orangehrm.com/user-survey-registration.php" class="subscribe" target="_blank"><?php echo __('Join OrangeHRM Community'); ?></a>
+                <!-- <a href="http://www.orangehrm.com/user-survey-registration.php" class="subscribe" target="_blank"><?php echo __('Join OrangeHRM Community'); ?></a> -->
                 <a href="#" id="welcome" class="panelTrigger"><?php echo __("Welcome %username%", array("%username%" => $sf_user->getAttribute('auth.firstName'))); ?></a>
                 <div id="welcome-menu" class="panelContainer">
                     <ul>
@@ -20,7 +20,7 @@ include_slot('header', get_partial('global/header'));
                         <li><a href="<?php echo url_for('auth/logout'); ?>"><?php echo __('Logout'); ?></a></li>
                     </ul>
                 </div>
-                <a href="#" id="help" class="panelTrigger"><?php echo __("Help & Training"); ?></a>
+                <!-- <a href="#" id="help" class="panelTrigger"><?php echo __("Help & Training"); ?></a> -->
                 <div id="help-menu" class="panelContainer">
                     <ul>
                         <li><a href="http://www.orangehrm.com/support-plans.php?utm_source=application_support&amp;utm_medium=app_url&amp;utm_campaign=orangeapp" target="_blank"><?php echo __('Support'); ?></a></li>

@@ -289,30 +289,30 @@ textarea {
 	color:#fff;
 }
 .menu > ul > li.current > a {
-	background:#f28c38;
+	background:#519200;
 	color:#fff;
 }
 .menu > ul > li.current > a b {
-	background:#f28c38;
+	background:#519200;
 }
 .menu > ul > li.current > ul {
 	left:0;
 	opacity:1;
 }
 .menu > ul:hover > li.current > a {
-	background:#f28c38;
+	background:#519200;
 }
 .menu > ul:hover > li.current > a b {
-	background:#f28c38;
+	background:#519200;
 }
 .menu > ul:hover > li.current > ul {
 	left:-9999px;
 }
 .menu > ul:hover > li.current:hover > a {
-	background:#f28c38;
+	background:#519200;
 }
 .menu > ul:hover > li.current:hover > a b {
-	background:#f28c38;
+	background:#519200;
 }
 .menu > ul:hover > li.current:hover > ul {
 	left:0;
@@ -927,7 +927,7 @@ table.table {
     border-collapse:collapse;    
 }
 table.table th {
-	background:#f28c38;
+	background:#519200;
 	color:#fff;
 	padding:7px;
 	border:1px solid #fff;

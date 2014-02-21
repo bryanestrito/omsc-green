@@ -6,7 +6,7 @@ $cultureElements = explode('_', $sf_user->getCulture());
     
     <head>
 
-        <title>OrangeHRM</title>
+        <title>OMSC Green</title>
         
         <?php include_http_metas() ?>
         <?php include_metas() ?>
