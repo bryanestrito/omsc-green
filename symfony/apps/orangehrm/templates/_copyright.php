@@ -4,5 +4,6 @@ $prodName = 'OMSC Green';
 $copyrightYear = date('Y');
 
 ?>
-<?php echo $prodName . ' ' . $version;?><br/>
-&copy; 2013 - <?php echo $copyrightYear;?> OMSC Green. All rights not reserved.
+<?php // echo $prodName;?><br/>
+<!-- &copy; 2013 - <?php echo $copyrightYear;?> OMSC Green. All rights not reserved. -->
+--- GREEN BETA TEST ---

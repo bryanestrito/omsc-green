@@ -144,7 +144,7 @@ $imagePath = theme_path("images/login");
     <form id="frmLogin" method="post" action="<?php echo url_for('auth/validateCredentials'); ?>">
         <input type="hidden" name="actionID"/>
         <input type="hidden" name="hdnUserTimeZoneOffset" id="hdnUserTimeZoneOffset" value="0" />
-        <div id="logInPanelHeading"><?php echo __('LOGIN Panel'); ?></div>
+        <div id="logInPanelHeading"><?php // echo __('LOGIN Panel'); ?></div>
 
         <div id="divUsername" class="textInputContainer">
             <?php echo $form['Username']->render(); ?>
@@ -159,7 +159,7 @@ $imagePath = theme_path("images/login");
                 'location' => 'login-page-help-link',
             ));
             ?></div>
-        <div id="divLoginButton">
+        <div id="divLoginButton" style="padding-top: 20px;">
             <input type="submit" name="Submit" class="button" id="btnLogin" value="<?php echo __('LOGIN'); ?>" />
             <?php if (!empty($message)) : ?>
             <span id="spanMessage"><?php echo __($message); ?></span>
@@ -169,7 +169,7 @@ $imagePath = theme_path("images/login");
 
 </div>
 
-<?php include_partial('global/footer_copyright_social_links'); ?>
+<?php // include_partial('global/footer_copyright_social_links'); ?>
 
 <script type="text/javascript">
     
