@@ -1,7 +1,14 @@
  
         <script type="text/javascript">
 
-            $(document).ready(function() {                            
+            $(document).ready(function() {
+                $('#resultTablePrint').on('click',function() {
+                    var divToPrint=document.getElementById("resultTable");
+                    newWin= window.open("");
+                    newWin.document.write(divToPrint.outerHTML);
+                    newWin.print();
+                    newWin.close();
+                });
                 
                 /* Enabling tooltips */
                 $(".tiptip").tipTip();
